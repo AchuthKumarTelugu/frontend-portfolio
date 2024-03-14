@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import { Tabs, message } from 'antd';
-import AdminExperience from './adminExperience.jsx';
-import AdminIntro from './adminIntro.jsx';
+import AdminExperience from './AdminExperience.jsx';
+import AdminIntro from './AdminIntro.jsx';
 import AdminAbout from './AdminAbout.jsx';
 import { useSelector } from 'react-redux';
 import AdminProjects from './AdminProjects.jsx';
