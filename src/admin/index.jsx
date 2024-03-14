@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import { Tabs, message } from 'antd';
-import AdminExperience from './adminExperience';
-import AdminIntro from './adminIntro';
-import AdminAbout from './AdminAbout';
+import AdminExperience from './adminExperience.jsx';
+import AdminIntro from './adminIntro.jsx';
+import AdminAbout from './AdminAbout.jsx';
 import { useSelector } from 'react-redux';
-import AdminProjects from './AdminProjects';
-import AdminContacts from './AdminContacts';
+import AdminProjects from './AdminProjects.jsx';
+import AdminContacts from './AdminContacts.jsx';
 import { useNavigate } from 'react-router-dom';
 
 function Admin() {
